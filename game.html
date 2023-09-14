@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Adivinhe a palavra</h1>
+        <div style="text-align: left;">
+            <label id="nomeJogador1"></label><span id="pontosJogador1"></span>
+            <br><br>
+            <label id="nomeJogador2"></label><span id="pontosJogador2"></span>
+        </div>
+    </header>
+    <main>
+        <h3 id="jogadorPerguntando"></h3>
+        <h3 id="jogadorRespondendo"></h3>
+        <div id="output"></div>
+        <br><br>
+        <label>Envie sua palavra</label><input type="text" id="palavra" placeholder="palavra">
+        <br><br>
+        <button type="submit" onclick="send()">Enviar</button>
+    </main>
+    <footer>
+        <h3>Desenvolvido por aluno</h3>
+    </footer>
+    <script src="game.js"></script>
+</body>
+
+</html>
